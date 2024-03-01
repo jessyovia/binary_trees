@@ -36,7 +36,6 @@ int get_successor(bst_t *node)
 
 	if (node == NULL)
 		return (0);
-	else
 	{
 		left_val = get_successor(node->left);
 		if (left_val == 0)
